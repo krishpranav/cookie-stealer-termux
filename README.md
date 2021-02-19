@@ -7,3 +7,5 @@ A simple python script for stealing cookies
 - sudo chmod +x *
 - add your ip address on cst.js file
 - python3 cookie-stealer-termux.py
+
+# Tool author will not be responsible for any damage
