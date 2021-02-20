@@ -1,3 +1,4 @@
+//main javascript file for getting the cookie 
 function httpGet(theUrl)
 {
 
